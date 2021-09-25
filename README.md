@@ -19,7 +19,7 @@
 
   ![as2](https://user-images.githubusercontent.com/58864953/134777597-03aba631-b666-4075-be2b-3c0ddb876f7d.png) ![ads](https://user-images.githubusercontent.com/58864953/134777627-cc0fc1cb-1a53-4350-880c-694ef79e5ae1.png)
   
-* The users can favorite the food they want on the menu screen, the favorite food is indicated to the user with an icon. This added favorite can be removed by clicking the icon again.
+* The users can favorite the food they want on the menu screen, the favorite food is indicated to the user with an icon. This added favorite can be removed by clicking the icon again. Favorite food will be stored in local db using SqLite.
 
 ![f1](https://user-images.githubusercontent.com/58864953/134777504-9aebad79-e298-4923-be05-27ceff34c6e9.png) ![f2](https://user-images.githubusercontent.com/58864953/134777505-daa71e88-5a4a-41d0-a065-572ca2441d4b.png)
 
