@@ -1,6 +1,6 @@
 # FoodApp
  
- ### An android application that;
+ ### An android mobile application that;
 * Users encounter the homepage where popular dishes and categories of the regions are listed.
 * When the user clicks on the region or category, the user reaches the menu of the relevant region or category. 
 * Then, the user who wants to go to the details of the food opens the detail page by clicking on the relevant dish.
