@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FurkanKilic_UsgChallange</string>
+    <string name="homePage">HomePage</string>
+    <string name="secondPage">Category Name</string>
+    <string name="thirdPage">Product Detail</string>
+    <string name="productName">Product Name</string>
+    <string name="productCategory">Product Category</string>
+    <string name="productDescription">Product Description</string>
+</resources>

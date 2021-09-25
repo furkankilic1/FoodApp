@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsecond"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="@string/thirdPage"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgProductDetail"
+        android:layout_width="392dp"
+        android:layout_height="198dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView android:id="@+id/tvHiddenProductId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imgProductFav"
+        android:layout_width="66dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:background="@drawable/unfav"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFEB3B"
+        android:text="@string/productName"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProductDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#9C27B0"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFEB3B"
+        android:text="@string/productCategory"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProductDetailCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#9C27B0"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFEB3B"
+        android:text="@string/productDescription"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProductDerailDesc"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#9C27B0"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
