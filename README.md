@@ -1,4 +1,4 @@
-# FoodApp
+# Foodish-Android
  
  ### An android mobile application that;
 * Users encounter the homepage where popular dishes and categories of the regions are listed.
